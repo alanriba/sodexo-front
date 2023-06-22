@@ -46,7 +46,7 @@ Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
 ## Autor
 
-[Nombre del autor]
+[Alex]
 
 ## Licencia
 
