@@ -1,27 +1,53 @@
-# SodexoApp
+# Plataforma de Noticias
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+Este proyecto consiste en el desarrollo de una plataforma de noticias que permite a los usuarios ver y buscar noticias. Los usuarios también pueden guardar noticias en sus favoritos para acceder a ellas más tarde. La plataforma se compone de una interfaz web de una sola página (SPA) desarrollada con Angular y un microservicio.
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Interfaz web SPA desarrollada con Angular 15 y PrimeNG.
+- Página de inicio que muestra las noticias más recientes en una lista ordenada por fecha.
+- Cada noticia muestra su título, descripción, resumen y fecha de publicación.
+- Funcionalidades de paginación, ordenamiento y búsqueda en la página de inicio.
+- Opción para agregar noticias a la lista de favoritos.
+- Página de favoritos que muestra las noticias guardadas por el usuario.
+- Funcionalidades de paginación, filtrado y ordenamiento en la página de favoritos.
+- Visualización de la fecha en que se guardó cada noticia en la página de favoritos.
+- Integración con el API de noticias [SpaceFlight News API](https://api.spaceflightnewsapi.net/v4/articles).
+- Uso de un API propio para guardar y obtener el listado de favoritos.
+- Diseño de la interfaz de usuario personalizable.
 
-## Code scaffolding
+## Instalación
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clona el repositorio en tu máquina local.
+2. Accede al directorio del proyecto: `cd plataforma-de-noticias`.
+3. Instala las dependencias utilizando el gestor de paquetes npm: `npm install`.
 
-## Build
+## Uso
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Inicia la interfaz web SPA: `npm start`.
+2. Accede a la plataforma de noticias en tu navegador: `http://localhost:4200`.
 
-## Running unit tests
+## Pruebas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para ejecutar las pruebas unitarias de los componentes desarrollados, utiliza el siguiente comando:
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contribución
 
-## Further help
+Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Realiza un fork del repositorio.
+2. Crea una rama para tu nueva funcionalidad: `git checkout -b nueva-funcionalidad`.
+3. Realiza tus cambios y pruebas.
+4. Asegúrate de que las pruebas pasen correctamente.
+5. Realiza un commit de tus cambios: `git commit -m "Agregar nueva funcionalidad"`.
+6. Haz push a la rama: `git push origin nueva-funcionalidad`.
+7. Crea un nuevo pull request en GitHub.
+
+## Autor
+
+[Nombre del autor]
+
+## Licencia
+
+Este proyecto se encuentra bajo la [licencia MIT](LICENSE).
